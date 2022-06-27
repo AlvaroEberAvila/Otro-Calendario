@@ -1,0 +1,38 @@
+span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+span legend {
+  text-align: center;
+  border-top: 1px solid #000;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+}
+
+table tr {
+  border-bottom: 1px solid #000;
+}
+
+table tr span {
+  margin-right: -28.3rem;
+}

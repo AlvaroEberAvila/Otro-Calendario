@@ -1,0 +1,30 @@
+span {
+  display: flex;
+  justify-content: center;
+
+  & legend {
+    text-align: center;
+    border-top: 1px solid #000;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 10px;
+  }
+
+  tr {
+    border-bottom: 1px solid #000;
+
+    & span {
+      margin-right: -28.3rem;
+    }
+  }
+}
